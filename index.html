@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__items">
+            <img src="./imgs/logo-1.png" width="75px" height="53px">
+            <img src="./imgs/people-1.png" width="45px" height="45px">
+        </div>
+    </header>    
+    <main class="chat">
+        <div class="chat__mensagens">
+            <p class="chat__mensagens__status mensagem"><span class="hora">(09:21:45)</span> <strong>João</strong> entra na sala...</p>
+            <p class="chat__mensagens__todos mensagem"><span class="hora">(09:22:28)</span> <strong>João</strong> para <strong>Todos</strong>:  Bom dia</p>
+            <p class="chat__mensagens__reservado mensagem"><span class="hora">(09:22:48)</span> <strong>João</strong> reservadamente para <strong>Maria</strong>:  Oi gatinha quer tc?</p>
+        </div>
+    </main>
+    <footer class="caixa-resposta">
+        <div class="caixa-resposta__items">
+            <input class="caixa-resposta__items__mensagem" type="text" placeholder="Escreva aqui..." style="font-style: italic;">
+            <button class="caixa-resposta__items__enviar" onclick="enviar()"><img src="./imgs/Vector-1.png" width="26px" height="26px"></button>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
