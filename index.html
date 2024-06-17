@@ -15,15 +15,13 @@
     </header>    
     <main class="chat">
         <div class="chat__mensagens">
-            <p class="chat__mensagens__status mensagem"><span class="hora">(09:21:45)</span> <strong>João</strong> entra na sala...</p>
-            <p class="chat__mensagens__todos mensagem"><span class="hora">(09:22:28)</span> <strong>João</strong> para <strong>Todos</strong>:  Bom dia</p>
-            <p class="chat__mensagens__reservado mensagem"><span class="hora">(09:22:48)</span> <strong>João</strong> reservadamente para <strong>Maria</strong>:  Oi gatinha quer tc?</p>
+            
         </div>
     </main>
     <footer class="caixa-resposta">
         <div class="caixa-resposta__items">
-            <input class="caixa-resposta__items__mensagem" type="text" placeholder="Escreva aqui..." style="font-style: italic;">
-            <button class="caixa-resposta__items__enviar" onclick="enviar()"><img src="./imgs/Vector-1.png" width="26px" height="26px"></button>
+            <textarea class="caixa-resposta__items__mensagem" placeholder="Escreva aqui..." style="font-style: italic;"></textarea>
+            <button class="caixa-resposta__items__enviar" onclick="enviarMensagem()"><img src="./imgs/Vector-1.png" width="26px" height="26px"></button>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

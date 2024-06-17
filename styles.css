@@ -80,6 +80,7 @@ body{
     border: none;
     font-size: 18px;
     color: black;
+    width: 90%;
 }
 
 .caixa-resposta__items__enviar{
